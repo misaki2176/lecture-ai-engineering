@@ -38,7 +38,7 @@ jobs:
       
     - name: Time tests
       run: |
-        time day5/演習3/tests/test_data.py
+        /usr/bin/time -v day5/演習3/tests/test_data.py
         
     - name: Run model tests
       run: |
