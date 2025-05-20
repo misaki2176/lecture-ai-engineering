@@ -1,10 +1,5 @@
-# 演習で作成されるシークレットファイルとdbファイル
-**/secrets.toml
-<<<<<<< HEAD
-=======
-**/secret.toml
->>>>>>> 7950e32c72612d06c80521fc2bbdf5f6df9c9db2
-**/chat_feedback.db
+mlruns
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
