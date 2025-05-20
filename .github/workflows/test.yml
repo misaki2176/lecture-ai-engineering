@@ -35,6 +35,10 @@ jobs:
     - name: Run data tests
       run: |
         pytest day5/演習3/tests/test_data.py -v
+      
+    - name: Time tests
+      run: |
+        /usr/bin/time -v pytest day5/演習3/tests/test_data.py
         
     - name: Run model tests
       run: |
